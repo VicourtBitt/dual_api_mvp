@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel='stylesheet' type="text/css" href="./assets/styles.css">
+
+        <title>MVP GC24</title>
+    </head>
+
+    <body>
+        <header>
+            <!-- Header UI File -->
+        </header>
+
+        <main>
+            <div class="small-box" id="reqCalls">
+                <button class="req-buttons" id="allUsers">AllUsers</button>
+                <button class="req-buttons" id="userById">UserById</button>
+                <button class="req-buttons" id="postUser">PostUser</button>
+                <button class="req-buttons" id="deleteUser">DeleteUser</button>
+            </div>
+
+            <div class="box" id="resCalls">
+                <div class="small-column-box" id="req-inputs">
+                    <input type="text" id="id" placeholder="id do user">
+
+                    <input type="text" id="name" placeholder="nome do user">
+
+                    <input type="number" id="age" placeholder="idade do user">
+
+                    <select id="gender">
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                        <option value="Não-Binário">Não-Binário</option>
+                    </select>
+
+                    <select id="course">
+                        <option value="Python">Python</option>
+                        <option value="Java">Java</option>
+                        <option value="Gestão e Vendas">Gestão e Vendas</option>
+                        <option value="Marketing e Design">Marketing e Design</option>
+                    </select>
+
+                    <input type="text" id="phone" placeholder="Telefone do user">
+
+                </div>
+
+                <div class="column-box" id="responses">
+
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <!-- Footer UI File -->
+        </footer>
+        
+        <script src="./ui/header.js"></script>
+        <script src="./ui/footer.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script type="module" src="./ui/showUsers.js"></script>
+        <script type="module" src="./api/user__request.js"></script>
+    </body>
+</html>

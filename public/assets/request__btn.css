@@ -1,0 +1,25 @@
+.req-buttons {
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 22px;
+
+    &#allUsers {
+        background-color: #FFD700;
+    }
+
+    &#userById {
+        background-color: #66ff00;
+    }
+
+    &#postUser {
+        background-color: #003cff;
+        color: #FFF;
+    }
+
+    &#deleteUser {
+        background-color: #ff0000;
+        color: #FFF;
+    }
+}

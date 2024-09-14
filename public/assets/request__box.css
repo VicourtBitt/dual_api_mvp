@@ -1,0 +1,59 @@
+main {
+    width: 1080px;
+    height: 640px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    width: 840px;;
+    height: 480px;
+    align-items: center;
+    background: #505050;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.small-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 840px;
+    height: 80px;
+    background: #505050;
+    border-radius: 20px;
+}
+
+.column-box {
+    width: 505px;
+    height: 440px;
+    border: 1px solid white;
+}
+
+.small-column-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 200px;
+    height: 440px;
+}
+
+input, select {
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    text-indent: 10px;
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    background: #505050;
+    border: 1px solid white;
+}
